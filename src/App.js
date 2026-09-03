@@ -4,7 +4,7 @@ import { ShieldCheck, Clock, MapPin, Lock, ArrowRight, CalendarClock } from 'luc
 import { SiTether } from 'react-icons/si';
 import { FaDollarSign, FaEuroSign } from 'react-icons/fa';
 
-const TELEGRAM_URL = "https://t.me/BlinkSwapCrypto";
+const TELEGRAM_URL = "https://t.me/+bFOePov-IbQ4ZDk8";
 const TELEGRAM_CHANNEL = "https://t.me/+bFOePov-IbQ4ZDk8";
 
 function TelegramIcon({ className }) {
