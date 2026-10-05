@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { ShieldCheck, Clock, MapPin, Lock, ArrowRight, CalendarClock } from 'lucide-react';
+import { ShieldCheck, Clock, MapPin, Lock, ArrowRight, CalendarClock, Globe } from 'lucide-react';
 import { SiTether } from 'react-icons/si';
 import { FaDollarSign, FaEuroSign } from 'react-icons/fa';
 
@@ -96,15 +96,15 @@ function App() {
       <main>
         <section className="hero">
           <div className="hero-left">
-            <div className="hero-eyebrow">ФИЗИЧЕСКИЙ ОБМЕН КРИПТОВАЛЮТ</div>
+            <div className="hero-eyebrow">МЕЖДУНАРОДНЫЕ ПЕРЕВОДЫ И ОБМЕН</div>
             <h1 className="hero-title">
               <span className="green-text">БЫСТРО.</span><br />
               <span className="blue-text">БЕЗОПАСНО.</span><br />
-              <span className="white-text">В ПОЛЬШЕ</span>
+              <span className="white-text">ПО ВСЕМУ МИРУ</span>
             </h1>
             <p className="hero-desc">
-              Назначаем время и место встречи.<br />
-              Вы приходите и совершаете обмен лично.
+              Переводы в любую точку мира.<br />
+              Быстро, безопасно, конфиденциально.
             </p>
             <a href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer" className="btn-manager">
               <div className="btn-manager-circle">
@@ -129,20 +129,20 @@ function App() {
         <section className="benefits">
           <BenefitCard
             icon={<ShieldCheck className="benefit-icon-svg" />}
-            title="БЕЗОПАСНЫЕ СДЕЛКИ"
-            desc="Проверенный обменный пункт"
+            title="БЕЗОПАСНЫЕ ПЕРЕВОДЫ"
+            desc="Проверенный сервис"
             color="green"
           />
           <BenefitCard
             icon={<Clock className="benefit-icon-svg" />}
-            title="НАЗНАЧАЕМ ВРЕМЯ"
-            desc="Удобно для вас"
+            title="БЫСТРАЯ ОТПРАВКА"
+            desc="В течение 15 минут"
             color="green"
           />
           <BenefitCard
-            icon={<MapPin className="benefit-icon-svg" />}
-            title="ОБМЕН В ПОЛЬШЕ"
-            desc="Варшава и другие города"
+            icon={<Globe className="benefit-icon-svg" />}
+            title="ПО ВСЕМУ МИРУ"
+            desc="Любая страна и город"
             color="blue"
           />
           <BenefitCard
@@ -156,7 +156,7 @@ function App() {
         <section className="directions-section">
           <h2 className="directions-title">
             <span className="title-line" />
-            ДОСТУПНЫЕ НАПРАВЛЕНИЯ ОБМЕНА
+            ДОСТУПНЫЕ НАПРАВЛЕНИЯ
             <span className="title-line" />
           </h2>
           <div className="directions-grid">
@@ -189,8 +189,8 @@ function App() {
               <CalendarClock className="appointment-icon" />
             </div>
             <div>
-              <h3 className="appointment-title">Работаем только по предварительной записи</h3>
-              <p className="appointment-desc">Обмен возможен только при личной встрече в нашем офисе в Польше.</p>
+              <h3 className="appointment-title">Работаем по предварительной записи</h3>
+              <p className="appointment-desc">Переводы и обмен доступны после согласования с менеджером. Любая точка мира.</p>
             </div>
           </div>
           <a href={TELEGRAM_CHANNEL} target="_blank" rel="noopener noreferrer" className="appointment-tg">
@@ -200,7 +200,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <span className="copyright">© 2024 BLINK SWAP. Физический обмен криптовалют в Польше.</span>
+        <span className="copyright">© 2024 BLINK SWAP. Международные переводы и обмен криптовалют.</span>
         <a href={TELEGRAM_CHANNEL} target="_blank" rel="noopener noreferrer" className="footer-link">
           Больше информации у нас на канале BLINK SWAP
         </a>
