@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { ShieldCheck, Clock, MapPin, Lock, ArrowRight, CalendarClock, Globe } from 'lucide-react';
+import { ShieldCheck, Clock, Lock, ArrowRight, CalendarClock, Globe } from 'lucide-react';
 import { SiTether } from 'react-icons/si';
 import { FaDollarSign, FaEuroSign } from 'react-icons/fa';
 
-const TELEGRAM_URL = "https://t.me/+bFOePov-IbQ4ZDk8";
-const TELEGRAM_CHANNEL = "https://t.me/+bFOePov-IbQ4ZDk8";
+const TELEGRAM_URL = "https://t.me/BlinkSwapCrypto";
+const TELEGRAM_CHANNEL = "https://t.me/BlinkSwapCrypto";
 
 function TelegramIcon({ className }) {
   return (
@@ -195,6 +195,36 @@ function App() {
           </div>
           <a href={TELEGRAM_CHANNEL} target="_blank" rel="noopener noreferrer" className="appointment-tg">
             Написать в Telegram <TelegramIcon className="btn-tg" />
+          </a>
+        </section>
+
+        <section className="best-rate-banner">
+          <div className="best-rate-left">
+            <div className="best-rate-icon-wrap">
+              <Globe className="best-rate-icon" />
+            </div>
+            <div>
+              <h3 className="best-rate-title">ЛУЧШИЙ КУРС</h3>
+              <p className="best-rate-desc">Выгодные условия и минимальные комиссии на все направления обмена</p>
+            </div>
+          </div>
+          <a href={TELEGRAM_CHANNEL} target="_blank" rel="noopener noreferrer" className="best-rate-tg">
+            Узнать курс <TelegramIcon className="btn-tg" />
+          </a>
+        </section>
+
+        <section className="work-247-banner">
+          <div className="work-247-left">
+            <div className="work-247-icon-wrap">
+              <Clock className="work-247-icon" />
+            </div>
+            <div>
+              <h3 className="work-247-title">РАБОТАЕМ 24/7</h3>
+              <p className="work-247-desc">Служба поддержки на связи круглосуточно — ответим в любое время дня и ночи</p>
+            </div>
+          </div>
+          <a href={TELEGRAM_CHANNEL} target="_blank" rel="noopener noreferrer" className="work-247-tg">
+            Написать сейчас <TelegramIcon className="btn-tg" />
           </a>
         </section>
       </main>
